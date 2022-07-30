@@ -1,0 +1,45 @@
+## June 11
+
+### Deployment : heroku cloud (github rep)   
+1. email id  
+2. Heroku Api key  
+3. App_name  
+   linux virtual machine  (500mb free)
+
+
+### Docker  
+1. Portability of code (basically once in docker , you can run the code in any system, we can directly us the software without installing lot of things.)
+     
+     Example : flask app ---->>>> dockerized and its image is shared and saved in dockerhub.
+2. Container (Container is a type of virtual machine)
+    Container is a virtualisation of hardware where you can install your requ. and directly run your application.   
+    Container is lightweight as it has min req. to run your software.
+3. Docker Image 
+    * OS : base layer  
+    * Instructions to use docker image : create a docker file containing,   
+        Example :  
+        1. which os  
+        2. < set folder >  
+        3. copy code  
+        4. create venv  
+        5. activate venv  
+        6. Install req.txt  
+        7. cmd python app.py  
+
+    * we need this dockor file/image and docker should be installed.  
+    * Docker provides runtime environment  
+
+## June 12  
+
+#### Agenda  
+1. Create a flask app(hello world)
+2. Write a docker file for flask application  
+3. Create github action for CI/CD  
+4. Heroku app for flask deployment  
+5. Create structure for ml project  
+6. Machine learning pipeline  
+
+#### Steps   
+1. conda create -p venv python==3.7 -y
+
+
