@@ -41,5 +41,14 @@
 
 #### Steps   
 1. conda create -p venv python==3.7 -y
-
+2. CI/CD pipeling setup :  
+    * heroku email id  
+    * heroku api key  
+    * heroku app name
+3. Build docker image  
+    * docker build -t <image_name>:<tagname> <filelocation>
+    * to list docker image : docker images  
+    * to run docker image : docker run -p 5000:5000 -e port=5000 6db80422c240  
+    * to check container running : docker ps  
+    * to stop docker container running : docker stop <container_id, here 6db8>
 
