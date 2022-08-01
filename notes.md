@@ -51,4 +51,9 @@
     * to run docker image : docker run -p 5000:5000 -e port=5000 6db80422c240  
     * to check container running : docker ps  
     * to stop docker container running : docker stop <container_id, here 6db8>
+4. Trigger and yaml file
+    * set a trigger in yaml file : here whenever there is any push in github repo deployment will be triggered.  
+    * Basically we are using github actions to implement a ci/cd pipeline.
+    * whenever we change anything in our code in project, it will automatically reflect in out deployed app, with the help of ci/cd in github.
+    
 
