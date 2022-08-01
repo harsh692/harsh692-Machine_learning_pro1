@@ -55,5 +55,9 @@
     * set a trigger in yaml file : here whenever there is any push in github repo deployment will be triggered.  
     * Basically we are using github actions to implement a ci/cd pipeline.
     * whenever we change anything in our code in project, it will automatically reflect in out deployed app, with the help of ci/cd in github.
+    * push all these changes to github and check actions in github, it will contain the added github work file.
+    * if giving error , go to settings and click on secret -->> actions -->> new repositery secrets, create secrets for private info required in github work file such as api key , app name and email. not re load in github actions, it will start working.
+    * check on heroku app logs.
     
+
 
